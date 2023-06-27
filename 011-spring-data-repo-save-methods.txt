@@ -1,0 +1,21 @@
+	@ParameterizedTest
+//	@Sql(statements = "truncate table state;")
+	@Sql(scripts = "/init-table.sql")
+	@CsvFileSource(resources = "/save/test_insert.txt",delimiter = '\t')
+	void test_insert(String name,Type type,String region,String capital,int population) {
+		//	Prepare Inputs
+		var input=new State(name, type, region, capital, population);
+		
+		//	Execute Test Method
+		var result=repo.save(input);
+		
+		//	Check Result
+		assertThat(result, hasProperty("id", is(1)));
+	}
+
+ှsave method ကို test လုပ်တဲ့အခါ 
+embedded database ကို သုံးရင် truncate လုပ်ပေမယ့် အကုန်ပျက်မသွားဘူး။
+အဲအတွက် init-table.sql file ကို test/resources အောက်မှာ ဖန်တီးထားတယ်။
+@CsvFileSource ကတော့ insert လုပ်မယ့် data တွေကို text file အဖြစ် ဖန်တီးထားတဲ့အတွက် ချိတ်သုံးဖို့
+delimiter ကတော့ type ခွဲပေးတယ်။
+assertThat ကတော့ hamcrest ကလာတယ်။
