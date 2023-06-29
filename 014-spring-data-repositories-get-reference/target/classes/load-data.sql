@@ -1,0 +1,32 @@
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Ayeyarwady', 'Region', 'South', 'Pathein', 6184829);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Bago', 'Region', 'South', 'Bago', 4867373);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Chin', 'State', 'North', 'Hakha', 478801);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Kachin', 'State', 'North', 'Myitkyina', 1689441);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Kayah', 'State', 'East', 'Loikaw', 286627);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Kayin', 'State', 'South', 'Hpa-an', 1574079);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Magway', 'Region', 'Central', 'Magwe', 3917055);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Mandalay', 'Region', 'Central', 'Mandalay', 6165723);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Mon', 'State', 'South', 'Mawlamyine', 2054393);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Naypyidaw', 'Union', 'Central', 'Naypyidaw', 1160242);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Rakhine', 'State', 'West', 'Sittwe', 3188807);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Sagaing', 'Region', 'North', 'Monywa', 5325347);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Shan', 'State', 'North', 'Taunggyi', 5824432);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Tanintharyi', 'Region', 'South', 'Dawei', 1408401);
+--INSERT INTO state (name, type, region, capital, population) VALUES ('Yangon', 'Region', 'Central', 'Yangon', 7360703);
+
+
+insert into state (name, type, region, capital, population) values('Ayeyarwady', 'Region', 'Lower', 'Pathein', 6184829);
+insert into state (name, type, region, capital, population) values('Bago', 'Region', 'Lower', 'Bago', 4867373);
+insert into state (name, type, region, capital, population) values('Chin', 'State', 'West', 'Hakha', 478801);
+insert into state (name, type, region, capital, population) values('Kachin', 'State', 'North', 'Myitkyina', 1689441);
+insert into state (name, type, region, capital, population) values('Kayah', 'State', 'East', 'Loikaw', 286627);
+insert into state (name, type, region, capital, population) values('Kayin', 'State', 'South', 'Hpa-an', 1574079);
+insert into state (name, type, region, capital, population) values('Magway', 'Region', 'Central', 'Magwe', 3917055);
+insert into state (name, type, region, capital, population) values('Mandalay', 'Region', 'Central', 'Mandalay', 6165723);
+insert into state (name, type, region, capital, population) values('Mon', 'State', 'South', 'Mawlamyine', 2054393);
+insert into state (name, type, region, capital, population) values('Naypyidaw', 'Union', 'Central', 'Naypyidaw', 1160242);
+insert into state (name, type, region, capital, population) values('Rakhine', 'State', 'West', 'Sittwe', 3188807);
+insert into state (name, type, region, capital, population) values('Sagaing', 'Region', 'North', 'Monywa', 5325347);
+insert into state (name, type, region, capital, population) values('Shan', 'State', 'East', 'Taunggyi', 5824432);
+insert into state (name, type, region, capital, population) values('Tanintharyi', 'Region', 'South', 'Dawei', 1408401);
+insert into state (name, type, region, capital, population) values('Yangon', 'Region', 'Lower', 'Yangon', 7360703);
